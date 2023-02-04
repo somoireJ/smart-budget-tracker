@@ -1,0 +1,49 @@
+
+CSS Code
+
+body {
+  font-family: sans-serif;
+  background-color: #e8e8e8;
+  color: #444;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2196F3;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.nav-item {
+  flex: 1;
+  text-align: center;
+}
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.content {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+}
